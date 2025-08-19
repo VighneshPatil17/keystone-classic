@@ -173,6 +173,7 @@
     "build-dev": "node build.js > ./admin/public/js/packages.js",
     "pretest": "npm run lint && node test/pretest.js",
     "start": "node keystone.js"
+    "start": "node server.js"
     "test": "mocha && mocha --opts test/mocha-admin.opts",
     "test-all": "npm test",
     "test-unit": "node test/pretest.js && mocha",
